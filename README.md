@@ -4,6 +4,8 @@
 Julian Go  
 Gabriel Masangkay  
 
+## Overview
+
 This project builds a machine learning pipeline to detect **Tidal Disruption Events (TDEs)** from time-domain astronomical observations.
 
 The model analyzes **multi-band light curve data** from astronomical surveys and identifies objects that are likely to be TDEs based on their temporal and statistical characteristics.
@@ -87,7 +89,6 @@ Cross-validation uses **GroupKFold** to prevent data leakage between objects.
 
 ```
 git clone https://github.com/juliangoph/mallorn-astronomical-classification.git
-cd tde-classification
 ```
 
 ### 2. Install Dependencies
@@ -104,14 +105,7 @@ Download the dataset from Kaggle:
 
 https://www.kaggle.com/competitions/mallorn-astronomical-classification-challenge/data
 
-Place the data inside:
-
-```
-data/
-├── train_log.csv
-├── test_log.csv
-└── split lightcurve folders
-```
+Place the data inside `\data`
 
 ---
 
